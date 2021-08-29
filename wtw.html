@@ -40,7 +40,7 @@ body{
     var today = new Date();
     var hrs = today.getHours();
     var dayOfWeek = weekday[today.getDay()];
-    var date = dayOfWeek+" " + today.getDate() + " . " +(today.getMonth()+1) +' . '+today.getFullYear()  ;
+    var date = dayOfWeek+" " + today.getDate() + "." +(today.getMonth()+1) +'.'+today.getFullYear()  ;
 
     var greet;
 
@@ -52,6 +52,6 @@ body{
         greet = 'Здоровенькі були';
 
     document.getElementById('lbl').innerHTML =
-        greet+=`<div id="date"> Сьогодні в нас  ${date}</div>`;
+        greet+=`<div id="date"> Сьогодні в нас</br>${date}</div>`;
 </script> 
 </html>
