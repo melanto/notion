@@ -5,7 +5,7 @@
 #lbl {
     font-family: Raleway, Roboto, Open Sans, sans-serif;
     font-weight: bold;
-    font-size: x-large;
+    font-size: large;
     color: #fff;
     padding: 5px;
     border: none;
@@ -47,11 +47,11 @@ body{
     var greet;
 
     if (hrs < 12)
-        greet = 'Із ранком<br>(─‿‿─)<br> ';
+        greet = 'Із Ранком<br>(─‿‿─)<br> ';
     else if (hrs >= 12 && hrs <= 17)
-        greet = 'Здоровенькі були<br>≧^◡^≦<br> ';
+        greet = 'Вітаннячка<br>≧^◡^≦<br> ';
     else if (hrs >= 17 && hrs <= 24)
-        greet = 'Здоровенькі були Вітаннячка<br>（‐＾▽＾‐）<br> ';
+        greet = 'Здоровенькі Були<br>（‐＾▽＾‐）<br> ';
 
     document.getElementById('lbl').innerHTML =
         greet+=`<div id="date"> Сьогодні в нас</br>${date}</div>`;
