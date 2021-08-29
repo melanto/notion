@@ -17,6 +17,7 @@
 }
 #date{
     font-size:large;
+    font-weight: 400;
 }
 body{
     background-color: #6F82E4;
@@ -46,11 +47,11 @@ body{
     var greet;
 
     if (hrs < 12)
-        greet = 'З Ранком';
+        greet = 'Посміхаємось і махаємо 😬';
     else if (hrs >= 12 && hrs <= 17)
-        greet = 'Вітаннячка';
+        greet = 'Вітаннячка 🤨';
     else if (hrs >= 17 && hrs <= 24)
-        greet = 'Здоровенькі були';
+        greet = 'Здоровенькі були 🥳💃';
 
     document.getElementById('lbl').innerHTML =
         greet+=`<div id="date"> Сьогодні в нас</br>${date}</div>`;
