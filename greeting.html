@@ -41,7 +41,7 @@ h1 {
     background: #6F82E4;
     color: #fff;
     display: inline-block;
-    box-shadow: 2px 2px 1px 0px #295C7B;
+    box-shadow: none;
 }
 
 .card:hover {
@@ -126,11 +126,11 @@ else{
 }
 hrs = today.getHours();
 if (hrs < 12)
-        greet = 'Доброго ранку';
+        greet = 'З Ранком';
     else if (hrs >= 12 && hrs <= 17)
-        greet = 'Доброго дня';
+        greet = 'Доброго Дня';
     else if (hrs >= 17 && hrs <= 24)
-        greet = 'Good Evening  ';
+        greet = 'Здоровенькі Були';
 // console.log(today.toLocaleTimeString());
 document.getElementById('greet').innerHTML = greet;
 document.getElementById('hour').innerHTML = hour;
